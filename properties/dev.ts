@@ -21,6 +21,7 @@ const config: Configuration = {
         open: true,
         disableHostCheck: true,
         quiet: true,
+        openPage: "index.html",
         contentBase: path.join(__dirname, ".."),
         before(app) {
             apiMocker(app, path.resolve(__dirname, "../mocker/index.js"), {
