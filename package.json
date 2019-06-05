@@ -1,6 +1,6 @@
 {
     "name": "ts-webpack-multi-page",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Webpack多页项目模板, 基于typescript编写webpack配置",
     "main": "index.js",
     "author": "XueYou",
@@ -64,6 +64,7 @@
         "postcss-aspect-ratio-mini": "^1.0.1",
         "postcss-loader": "^3.0.0",
         "postcss-px-to-viewport": "^1.1.0",
+        "postcss-scss": "^2.0.0",
         "react-testing-library": "^7.0.1",
         "sass-loader": "^7.1.0",
         "style-loader": "^0.23.1",
